@@ -21,6 +21,7 @@
         git merge 分支名 （指定分支名合并到现在所在的分支）
 
 4、分支删除
+
         本地删除
         git branch -d 分支名
         
@@ -29,10 +30,13 @@
         git push origin :分支名
 
 5、 分支修改
-
+        先修改本地分支名称，后提交至远程
         git branch -m oldName newName    
           -(odlName改为newName)
 	
 5、分支提交
 		
 	git push origin 分支名
+
+-------------
+
