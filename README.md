@@ -1,10 +1,4 @@
-"# branch-test" 
-
-
-V1.0.x 分支创建 
-
-
-分支修改
+# git 命令
 
 ## 分支
 
@@ -12,14 +6,15 @@ V1.0.x 分支创建
 
         git checkout -b 分支名 
         相当于
-        git branch 分支名        创建
-        git checkout 分支名      跳转 
+        git branch 分支名        创建分支
+        git checkout 分支名      跳转分支
+2、查看分支
 
-2、分支打tag
+		本地
+		git branch 
+		远程
+		git branch -r 
 
-        git tag    查看tag列表
-        git tag -a tag名 -m "tag描述"
-        git push origin tag名 （tag 是一种特殊的分支？）
 
 3、分支合并
 
@@ -32,3 +27,12 @@ V1.0.x 分支创建
         远程删除
         git push origin -d 分支名 
         git push origin :分支名
+
+5、 分支修改
+
+        git branch -m oldName newName    
+          -(odlName改为newName)
+	
+5、分支提交
+		
+	git push origin 分支名
